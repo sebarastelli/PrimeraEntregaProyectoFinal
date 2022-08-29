@@ -55,7 +55,7 @@ function pago() {
 }
 
 function sugerencia() {
-    let recomendacion = prompt("Gracias, si tiene alguna sugerencia de una película de cualquiero director para agregar en cartelera escribala a continuación");
+    let recomendacion = prompt("Gracias, si tiene alguna sugerencia de una película de cualquier director para agregar en cartelera escribala a continuación");
     let cartel = ["Fight Club","Seven","Gone Girl"];
     cartel.push(recomendacion);
     let listaDePeliculas = cartel.sort();
